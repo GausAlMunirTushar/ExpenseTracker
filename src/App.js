@@ -1,8 +1,8 @@
+import React from 'react';
 import './App.css';
-import ExpenseItem from './components/ExpenseItem';
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 
-function App() {
+const App = () => {
   let expenseDate = new Date(2021, 3, 25);
   let expenseTitle = 'Mobile Bill';
   let expenseAmount = 100;
